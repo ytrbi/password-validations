@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Danfo&family=Eczar:wght@400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Danfo&family=Eczar:wght@400..800&family=Inconsolata:wght@200..900&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+body {
+    background-image: url('https://i.pinimg.com/originals/fc/20/f7/fc20f7d47033b4f56538842a0a350ddd.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(61,61,61,1) 100%); */
+	display: flex;
+    font-family: monospace;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.container {
+    background-color: white;
+	box-shadow: 0px 2px 10px rgba(255, 255, 255, 0.2);
+	padding: 10px;
+	width: 400px;
+    border-radius: 10px;
+}
+h2 {
+	margin: 10px 0px 0px 0px;
+    font-family: "Eczar" ,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	text-align: center;
+    font-size: 25px;
+    color: #446248;
+    font-weight: bold;
+}
+#set
+{
+    display:block ;
+    position:relative;
+    margin:auto;
+}
+#count
+{
+   display:inline-block;
+   position:relative ;
+   margin:4%; margin-bottom:2%;
+   color:#000; font-size:18px;
+   text-indent:40px;
+   font-weight:bolder;
+   
+}
+#see
+{
+    display:inline-block;
+    color:gray;
+    margin:auto; 
+    float: right;
+    margin-right:40px;
+    margin-top:10px;
+    cursor:pointer; 
+    transition-duration:0.2s;
+}
+input[id='password']
+{
+    padding: 10px;
+    border:none; 
+    width:80%;
+    outline:none;
+    border-bottom: 5px solid #2a0845;
+    display:block; 
+    position:relative;
+    font-size:27px;
+    text-align:center;
+    top:50px;
+    margin-top: -20px;
+    margin-left:35px;
+    margin-bottom:40px;
+    user-select:auto;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    transition-duration:600ms;
+}
+i
+{
+    font-size:23px;
+    transition-duration:600ms;    
+}
+#check0,#check1,#check2,#check3,#check4
+{
+   font-family: "Inconsolata", monospace,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   display:block;
+   position:relative;
+   margin:4%;
+   color:red; font-size:18px;
+   width:92% ;
+   
+}
+span
+{
+    margin:10px;
+    font-weight: bold;
+}
+input:hover
+{
+    border-bottom:5px solid #6441a5;
+}
