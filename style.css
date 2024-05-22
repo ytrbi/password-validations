@@ -47,7 +47,6 @@ h2 {
    color:#000; font-size:18px;
    text-indent:40px;
    font-weight:bolder;
-   
 }
 #see
 {
@@ -62,6 +61,7 @@ h2 {
 }
 input[id='password']
 {
+    justify-content: center;
     padding: 10px;
     border:none; 
     width:80%;
@@ -102,4 +102,62 @@ span
 input:hover
 {
     border-bottom:5px solid #6441a5;
+}
+
+.tooltip {
+    justify-content: center;
+    position: relative;
+    display: inline-block;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+  }
+  
+  .tooltip .tooltiptext {
+    justify-content: center;
+    visibility: hidden;
+    width: 140px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 150%;
+    left: 50%;
+    margin-left: -75px;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+  }
+
+button {
+    background-color: rgb(47, 12, 135);
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: "Courier New", Courier, monospace;
+    color: white;
+    padding: 10px;
+    margin-left: 10px;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 20px;
 }
