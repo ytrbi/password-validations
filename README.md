@@ -1,6 +1,6 @@
 # Password Validation UI: Interactive and User-Friendly Interface
 
-![result](https://github.com/ytrbi/password-validations/assets/151997489/7b2a67dd-e90b-4270-9b13-6652b77599dd)
+<img width="1426" alt="Screenshot 2024-05-29 at 05 29 52" src="https://github.com/ytrbi/password-validations/assets/151997489/c7f2b92f-ec3f-450d-a7d7-90aa1106d514">
 
 ## Overview
 
